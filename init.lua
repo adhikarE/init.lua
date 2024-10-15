@@ -9,3 +9,8 @@ vim.opt.softtabstop = 3
 vim.opt.expandtab = true
 
 vim.opt.clipboard = "unnamedplus"
+
+vim.opt.background = "dark"
+
+-- Enable true color support
+vim.opt.termguicolors = true
