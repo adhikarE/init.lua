@@ -14,3 +14,6 @@ vim.opt.background = "dark"
 
 -- Enable true color support
 vim.opt.termguicolors = true
+
+vim.cmd[[highlight Visual guibg=#4e4e4e]]
+vim.cmd[[highlight Search guibg=#de251a]]
