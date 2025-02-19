@@ -56,8 +56,8 @@ local packer_bootstrap = ensure_packer()
 require('lualine').setup {
   options = {
     theme = 'tokyonight',  -- Set to your desired color scheme
-    section_separators = {'', ''},
-    component_separators = {'', ''},
+    section_separators = {'0', '2'},
+    component_separators = {'1', '3'},
     icons_enabled = true,
   },
   sections = {
